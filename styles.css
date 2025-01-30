@@ -1,0 +1,59 @@
+body {
+	background: black;
+	font-family: "Delius Swash Caps", serif;
+}
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	padding: 15px;
+	border-radius: 8px;
+	box-shadow: 5px 5px 10px darkgray;
+}
+.postcard-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+.postcard-header h1 {
+	width: 250px;
+	margin: 0;
+}
+.postcard-body {
+	display: flex;
+	align-items: start;
+}
+.body-left p:first-child {
+	margin-top: 5%;
+}
+.body-left,
+.body-right {
+	padding: 2%;
+}
+input {
+	border: none;
+	border-bottom: grey 1px solid;
+	font-family: "Delius Swash Caps", serif;
+}
+.postcard-footer {
+	text-align: center;
+	padding: 10px;
+}
+button {
+	background-color: lightgray;
+	padding: 5px;
+	font-family: "Delius Swash Caps", serif;
+}
+
+.body-right {
+	margin-top: 8px;
+}
+
+p {
+	font-style: italic;
+}
